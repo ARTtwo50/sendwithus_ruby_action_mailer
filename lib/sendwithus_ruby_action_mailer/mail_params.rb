@@ -40,6 +40,8 @@ module SendWithUsMailer
           @bcc.concat(value)
         when :version_name
           @version_name = value
+        when :perform_delivery
+          @perform_delivery = value
         end
       end
     end
